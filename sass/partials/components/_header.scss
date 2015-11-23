@@ -1,0 +1,20 @@
+/*
+ * Price style .
+ */
+.informacion-producto-item-precio {
+    background: $light-gray;
+    width: 100%;
+    text-align: center;
+    height: 4rem;
+    font-size: 25px;
+    font-size: 2.5rem;
+    border-radius: 11px;
+ }
+
+.categoria {
+    float: right;
+    padding: 1% 9%;
+    border-left: 1px solid #000;
+    font-size: 1.5rem;
+    font-size: 15px;
+}

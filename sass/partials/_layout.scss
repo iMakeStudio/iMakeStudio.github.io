@@ -1,0 +1,100 @@
+//
+// General layout rules
+//
+/*----------------- T A G S --------------------------*/
+
+
+body {
+  @include outer-container;
+}
+
+/*----------------- C l A S E S --------------------------*/
+
+.header-productos {
+  @include span-columns(12);
+}
+
+.first-navbar {
+  @include span-columns(12);
+}
+
+.nav-main {
+  @include span-columns(12);
+}
+
+.display-main-image {
+  @include span-columns(12);
+}
+
+.about-product {
+  @include span-columns(12);
+}
+
+.review-producto {
+  @include span-columns(12);
+}
+/* -------------------- Productos relacionados -----------------*/
+.productos-relacionados {
+  @include span-columns(12);
+  margin: 4% 0;
+  text-align:center;
+}
+
+.productos-relacionados-asus-zenefone {
+  @include span-columns(6);
+}
+
+/*----------------------------------------------------------------*/
+
+.imagenes-productos-item {
+  display: none;
+}
+
+.descripcion-producto,
+.about-product {
+  padding: 0 4%;
+}
+
+.informacion-producto {
+  margin: 0;
+  padding: 0;
+}
+
+.about-product {
+  margin-top: 10%;
+}
+
+.review-producto-usuario {
+  background: $light-gray;
+  margin: 3% 0;
+  padding: 4%;
+  h3 {
+    display: inline-block;
+    width: 40%;
+    word-spacing: 5px;
+  }
+}
+
+.fa-star, .fa-star-half-o {
+  color: $yellow-raiting;
+  font-size: 1.5rem;
+}
+
+/*------------------------ Media  Queries 360px -------------------------*/
+
+@media (min-width:360px) {
+  .display-main-image {
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

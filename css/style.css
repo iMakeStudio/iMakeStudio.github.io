@@ -1,0 +1,350 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.element-invisible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px); }
+
+/*
+ * Rules for base elements
+ */
+html {
+  font-size: 68.5%; }
+
+body {
+  color: #2e2e2e;
+  font-family: "Lato", sans-serif;
+  margin: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+p, li {
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #555;
+  line-height: 1.6; }
+
+p, ul, ol, dl {
+  margin: 0 0 0.5em 0; }
+
+li {
+  list-style: none; }
+
+p {
+  overflow: hidden; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  font-size: 1.4rem; }
+
+th, td {
+  padding: 0.5em; }
+
+/*
+ * Rules for base drupal elements
+ */
+.tabs {
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0; }
+  .tabs li {
+    list-style-type: none;
+    float: left; }
+  .tabs a {
+    color: #333;
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding-right: 20px; }
+    .tabs a.active {
+      color: #000;
+      font-weight: 600; }
+    .tabs a:hover {
+      color: #000;
+      text-decoration: none; }
+
+/*----------------- T A G S --------------------------*/
+body {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  body::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/*----------------- C l A S E S --------------------------*/
+.header-productos {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%; }
+  .header-productos:last-child {
+    margin-right: 0; }
+
+.first-navbar {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%; }
+  .first-navbar:last-child {
+    margin-right: 0; }
+
+.nav-main {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%; }
+  .nav-main:last-child {
+    margin-right: 0; }
+
+.display-main-image {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%; }
+  .display-main-image:last-child {
+    margin-right: 0; }
+
+.about-product {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%; }
+  .about-product:last-child {
+    margin-right: 0; }
+
+.review-producto {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%; }
+  .review-producto:last-child {
+    margin-right: 0; }
+
+/* -------------------- Productos relacionados -----------------*/
+.productos-relacionados {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 100%;
+  margin: 4% 0;
+  text-align: center; }
+  .productos-relacionados:last-child {
+    margin-right: 0; }
+
+.productos-relacionados-asus-zenefone {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 48.821174201%; }
+  .productos-relacionados-asus-zenefone:last-child {
+    margin-right: 0; }
+
+/*----------------------------------------------------------------*/
+.imagenes-productos-item {
+  display: none; }
+
+.descripcion-producto,
+.about-product {
+  padding: 0 4%; }
+
+.informacion-producto {
+  margin: 0;
+  padding: 0; }
+
+.about-product {
+  margin-top: 10%; }
+
+.review-producto-usuario {
+  background: #F3F3F3;
+  margin: 3% 0;
+  padding: 4%; }
+  .review-producto-usuario h3 {
+    display: inline-block;
+    width: 40%;
+    word-spacing: 5px; }
+
+.fa-star, .fa-star-half-o {
+  color: #f5cb5c;
+  font-size: 1.5rem; }
+
+/*------------------------ Media  Queries 360px -------------------------*/
+label,
+.webform-container-inline label {
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 8px; }
+
+label.option {
+  display: inline;
+  font-weight: 400;
+  margin-left: 0.5em; }
+
+select {
+  font-size: 12px;
+  font-size: 1.2rem;
+  width: 100%; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  font-size: 12px;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  border: solid #e1e1e1 1px;
+  background: #fff;
+  margin-bottom: 5px;
+  padding: 5px; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; }
+  @media screen and (min-width: 767px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      max-width: 300px; } }
+
+input[type="checkbox"],
+input[type="radio"] {
+  font-size: 16px;
+  font-size: 1.6rem;
+  vertical-align: baseline; }
+
+input[type="submit"] {
+  border: 0;
+  outline: 0;
+  padding: 8px 25px;
+  width: 100%;
+  margin-bottom: 10px;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+  @media screen and (min-width: 767px) {
+    input[type="submit"] {
+      width: auto;
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 0; } }
+
+.form-type-radio {
+  margin-bottom: 5px; }
+
+.field-widget-text-textarea .form-type-textarea {
+  margin-bottom: 10px; }
+
+.filter-wrapper {
+  border: 0;
+  background: #fff;
+  border-radius: 5px; }
+
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+  border: 2px solid red; }
+
+.webform-component {
+  margin-bottom: 15px; }
+
+.fa-shopping-cart {
+  color: white;
+  margin-right: 5%; }
+
+.first-navbar {
+  background-color: #2e2e2e;
+  padding: 5%; }
+  .first-navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-size: 2.4rem; }
+  .first-navbar h1 {
+    display: inline-block;
+    width: 75%; }
+  .first-navbar input {
+    display: none; }
+
+.nav-main {
+  background-color: #2e2e2e;
+  display: none;
+  height: auto; }
+  .nav-main li {
+    color: white;
+    margin: 6% 0;
+    font-size: 15px;
+    font-size: 1.5rem; }
+
+button {
+  background: #2DCC70;
+  color: white;
+  padding: 4% 8%;
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  font-size: 1.8rem;
+  border-radius: 30px;
+  margin: 5% 0;
+  margin-top: -2px; }
+  button .fa {
+    margin-left: 4%; }
+
+/*
+ * Price style .
+ */
+.informacion-producto-item-precio {
+  background: #F3F3F3;
+  width: 100%;
+  text-align: center;
+  height: 4rem;
+  font-size: 25px;
+  font-size: 2.5rem;
+  border-radius: 11px; }
+
+.categoria {
+  float: right;
+  padding: 1% 9%;
+  border-left: 1px solid #000;
+  font-size: 1.5rem;
+  font-size: 15px; }
+
+.about-product h2 {
+  font-size: 20px;
+  font-size: 2rem; }
+
+.informacion-producto-user-review span {
+  font-weight: bold; }
+
+footer {
+  background: #2e2e2e;
+  clear: both;
+  padding: 4%; }
+  footer h5 {
+    color: #f1f1f1;
+    margin-top: 3%;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

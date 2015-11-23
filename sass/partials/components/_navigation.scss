@@ -1,0 +1,49 @@
+//main image section
+//arregla nav fixed0
+
+
+.fa-shopping-cart {
+  color: white;
+  margin-right: 5%;
+}
+
+.first-navbar {
+  background-color: $primary-color;
+  padding: 5%;
+  a {
+    color: white;
+    text-decoration: none;
+    @include font-size(24);
+  }
+  h1 {
+    display: inline-block;
+    width: 75%;
+  }
+  input {
+    display: none;
+  }
+}
+
+//mmain nagigation
+.nav-main {
+  background-color: $primary-color;
+  display: none;
+  height: auto;
+  li {
+    color: white;
+    margin: 6% 0;
+    @include font-size(15);
+  }
+}
+
+
+button {
+  @include buy-button(white, $call-to-action, 4% 8%, 100%);
+  @include font-size(18);
+  border-radius: 30px;
+  margin: 5% 0;
+  margin-top: -2px;
+  .fa {
+    margin-left: 4%;
+  }
+}
