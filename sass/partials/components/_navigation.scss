@@ -1,8 +1,6 @@
 //main image section
 //arregla nav fixed0
-.display-main-image {
-  padding-top: 24%;
-}
+
 
 .fa-shopping-cart {
   color: white;
@@ -12,7 +10,6 @@
 .first-navbar {
   background-color: $primary-color;
   padding: 5%;
-  position: fixed;
   a {
     color: white;
     text-decoration: none;
@@ -32,7 +29,6 @@
   background-color: $primary-color;
   display: none;
   height: auto;
-  padding: 10% 0;
   li {
     color: white;
     margin: 6% 0;

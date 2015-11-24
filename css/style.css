@@ -187,6 +187,7 @@ body {
   color: #f5cb5c;
   font-size: 1.5rem; }
 
+/*////////////////////////////// Media Queries 768px /////////////////////////*/
 label,
 .webform-container-inline label {
   font-size: 14px;
@@ -240,6 +241,8 @@ input[type="submit"] {
   padding: 8px 25px;
   width: 100%;
   margin-bottom: 10px;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
   @media screen and (min-width: 767px) {
     input[type="submit"] {
@@ -267,17 +270,13 @@ input[type="submit"] {
 .webform-component {
   margin-bottom: 15px; }
 
-.display-main-image {
-  padding-top: 24%; }
-
 .fa-shopping-cart {
   color: white;
   margin-right: 5%; }
 
 .first-navbar {
   background-color: #2e2e2e;
-  padding: 5%;
-  position: fixed; }
+  padding: 5%; }
   .first-navbar a {
     color: white;
     text-decoration: none;
@@ -292,8 +291,7 @@ input[type="submit"] {
 .nav-main {
   background-color: #2e2e2e;
   display: none;
-  height: auto;
-  padding: 10% 0; }
+  height: auto; }
   .nav-main li {
     color: white;
     margin: 6% 0;
@@ -333,6 +331,36 @@ button {
   font-size: 1.5rem;
   font-size: 15px; }
 
+/*////////////////////////////// Media Queries 768px /////////////////////////*/
+@media (max-width: 768px) {
+  .categoria {
+    display: inline-block;
+    float: none;
+    text-align: center;
+    border-left: 1px solid #000;
+    padding: 1% 2%; }
+  .nombre-producto {
+    font-size: 3rem;
+    border-bottom: 1px solid black;
+    width: 53%; }
+  button {
+    background: #2DCC70;
+    color: white;
+    padding: 4% 8%;
+    width: 50%;
+    border: none;
+    color: #FFF;
+    padding: 3% 6%;
+    border: medium none;
+    font-size: 2rem;
+    margin: -2px 0px 5%;
+    border-radius: 40px;
+    box-shadow: 1px 3px 1px 2px #2dce73; }
+  .informacion-producto-item-precio {
+    width: 50%;
+    height: 5rem;
+    font-size: 3rem; } }
+
 .about-product h2 {
   font-size: 20px;
   font-size: 2rem; }
@@ -348,4 +376,5 @@ footer {
     color: #f1f1f1;
     margin-top: 3%;
     text-align: center; }
+
 /*# sourceMappingURL=style.css.map */

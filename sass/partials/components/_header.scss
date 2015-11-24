@@ -18,3 +18,39 @@
     font-size: 1.5rem;
     font-size: 15px;
 }
+
+/*////////////////////////////// Media Queries 768px /////////////////////////*/
+
+@media (max-width:768px) {
+  .categoria {
+    display: inline-block;
+    float: none;
+    text-align: center;
+    border-left: 1px solid #000;
+    padding: 1% 2%;
+  }
+
+  .nombre-producto {
+    font-size: 3rem;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 53%;
+  }
+
+  button {
+    @include buy-button(white, $call-to-action, 4% 8%, 50%);
+    color: #FFF;
+    padding: 3% 6%;
+    border: medium none;
+    font-size: 2rem;
+    margin: -2px 0px 5%;
+    border-radius: 40px;
+    box-shadow: 1px 3px 1px 2px rgb(45, 206, 115);
+  }
+
+  .informacion-producto-item-precio {
+    width: 50%;
+    height: 5rem;
+    font-size: 3rem;
+  }
+
+}
