@@ -20,8 +20,9 @@
 //button to buy
 @mixin buy-button($color,$background, $padding, $width){
   background: $background;
+  border: none;
   color: $color;
+  cursor: pointer;
   padding: $padding;
   width: $width;
-  border: none;
 }

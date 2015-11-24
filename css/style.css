@@ -16,6 +16,9 @@ html {
 html {
   font-size: 68.5%; }
 
+.wrapper {
+  overflow: hidden; }
+
 body {
   color: #2e2e2e;
   font-family: "Lato", sans-serif;
@@ -45,9 +48,6 @@ a {
 
 a:hover {
   text-decoration: underline; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0; }
 
 table {
   width: 100%;
@@ -188,6 +188,30 @@ body {
   font-size: 1.5rem; }
 
 /*////////////////////////////// Media Queries 768px /////////////////////////*/
+@media (min-width: 768px) {
+  /* Dividir la parte de productos en dos partes */
+  .informacion-producto {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 100%; }
+    .informacion-producto:last-child {
+      margin-right: 0; }
+  .informacion-producto-block {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 48.821174201%; }
+    .informacion-producto-block:last-child {
+      margin-right: 0; }
+  .informacion-producto-block-informativo {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 48.821174201%; }
+    .informacion-producto-block-informativo:last-child {
+      margin-right: 0; } }
+
 label,
 .webform-container-inline label {
   font-size: 14px;
@@ -300,10 +324,11 @@ input[type="submit"] {
 
 button {
   background: #2DCC70;
+  border: none;
   color: white;
+  cursor: pointer;
   padding: 4% 8%;
   width: 100%;
-  border: none;
   font-size: 18px;
   font-size: 1.8rem;
   border-radius: 30px;
@@ -332,7 +357,9 @@ button {
   font-size: 15px; }
 
 /*////////////////////////////// Media Queries 768px /////////////////////////*/
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  .about-product {
+    font-size: 30; }
   .categoria {
     display: inline-block;
     float: none;
@@ -342,13 +369,16 @@ button {
   .nombre-producto {
     font-size: 3rem;
     border-bottom: 1px solid black;
-    width: 53%; }
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+    width: 30%; }
   button {
     background: #2DCC70;
-    color: white;
-    padding: 4% 8%;
-    width: 50%;
     border: none;
+    color: white;
+    cursor: pointer;
+    padding: 4% 8%;
+    width: 80%;
     color: #FFF;
     padding: 3% 6%;
     border: medium none;
@@ -357,16 +387,23 @@ button {
     border-radius: 40px;
     box-shadow: 1px 3px 1px 2px #2dce73; }
   .informacion-producto-item-precio {
-    width: 50%;
+    width: 80%;
     height: 5rem;
     font-size: 3rem; } }
 
-.about-product h2 {
-  font-size: 20px;
-  font-size: 2rem; }
-
 .informacion-producto-user-review span {
   font-weight: bold; }
+
+/*--------------------- Media Queries 768px -------------------*/
+@media (min-width: 768px) {
+  .descripcion-producto-title {
+    border-bottom: 1px solid black;
+    padding: 2%;
+    font-size: 2rem;
+    width: 70%;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-top: 30px; } }
 
 footer {
   background: #2e2e2e;

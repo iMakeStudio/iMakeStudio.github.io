@@ -82,8 +82,19 @@ body {
 
 /*////////////////////////////// Media Queries 768px /////////////////////////*/
 
-@media (max-width:768px) {
+@media (min-width:768px) {
+  /* Dividir la parte de productos en dos partes */
+  .informacion-producto {
+    @include span-columns(12);
+  }
 
+  .informacion-producto-block {
+    @include span-columns(6);
+  }
+
+  .informacion-producto-block-informativo {
+    @include span-columns(6);
+  }
 }
 
 

@@ -1,6 +1,17 @@
-.about-product h2{
-@include font-size(20);
-}
 .informacion-producto-user-review span {
   font-weight: bold;
+}
+
+/*--------------------- Media Queries 768px -------------------*/
+
+@media (min-width:768px) {
+  .descripcion-producto-title {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 2%;
+    font-size: 2rem;
+    width: 70%;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-top: 30px;
+  }
 }

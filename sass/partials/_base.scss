@@ -5,6 +5,9 @@
 html {
   font-size: 68.5%;
 }
+.wrapper {
+  overflow: hidden;
+}
 
 body {
   color: $primary-color;
@@ -44,11 +47,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-}
-
 // Tablas
 table {
   width: 100%;
