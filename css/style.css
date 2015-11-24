@@ -187,7 +187,6 @@ body {
   color: #f5cb5c;
   font-size: 1.5rem; }
 
-/*------------------------ Media  Queries 360px -------------------------*/
 label,
 .webform-container-inline label {
   font-size: 14px;
@@ -241,8 +240,6 @@ input[type="submit"] {
   padding: 8px 25px;
   width: 100%;
   margin-bottom: 10px;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
   @media screen and (min-width: 767px) {
     input[type="submit"] {
@@ -270,13 +267,17 @@ input[type="submit"] {
 .webform-component {
   margin-bottom: 15px; }
 
+.display-main-image {
+  padding-top: 24%; }
+
 .fa-shopping-cart {
   color: white;
   margin-right: 5%; }
 
 .first-navbar {
   background-color: #2e2e2e;
-  padding: 5%; }
+  padding: 5%;
+  position: fixed; }
   .first-navbar a {
     color: white;
     text-decoration: none;
@@ -291,7 +292,8 @@ input[type="submit"] {
 .nav-main {
   background-color: #2e2e2e;
   display: none;
-  height: auto; }
+  height: auto;
+  padding: 10% 0; }
   .nav-main li {
     color: white;
     margin: 6% 0;
@@ -346,5 +348,4 @@ footer {
     color: #f1f1f1;
     margin-top: 3%;
     text-align: center; }
-
 /*# sourceMappingURL=style.css.map */
