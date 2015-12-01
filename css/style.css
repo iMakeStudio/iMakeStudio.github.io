@@ -82,15 +82,6 @@ th, td {
       text-decoration: none; }
 
 /*----------------- T A G S --------------------------*/
-body {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto; }
-  body::after {
-    clear: both;
-    content: "";
-    display: table; }
-
 /*----------------- C l A S E S --------------------------*/
 .header-productos {
   float: left;
@@ -265,6 +256,8 @@ input[type="submit"] {
   padding: 8px 25px;
   width: 100%;
   margin-bottom: 10px;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
   @media screen and (min-width: 767px) {
     input[type="submit"] {
@@ -410,7 +403,7 @@ button {
     font-size: 2rem;
     margin: -2px 0px 5%;
     border-radius: 40px;
-    box-shadow: 1px 3px 1px 2px #2dce73; }
+    box-shadow: 1px 3px 6px -1px #ccc; }
   .informacion-producto-item-precio {
     width: 80%;
     height: 5rem;
@@ -420,6 +413,18 @@ button {
 @media (min-width: 1024px) {
   .about-product {
     margin-top: 1%; } }
+
+/*//////////////////////// Media Queries 1280px //////////////////////////////*/
+@media (min-width: 1280px) {
+  .display-main-image img {
+    width: 100%; } }
+
+/*//////////////////////// Media Queries 1366px //////////////////////////////*/
+@media (min-width: 1366px) {
+  .informacion-producto-item-precio {
+    width: 70%; }
+  button {
+    width: 70%; } }
 
 .informacion-producto-user-review span {
   font-weight: bold; }
@@ -447,20 +452,43 @@ button {
     font-size: 1.5rem;
     width: 150px; } }
 
+/*--------------------- Media Queries 1024px -------------------*/
 @media (min-width: 1024px) {
   .descripcion-producto-informacion {
     margin: 15px 0;
     margin-bottom: 15px; }
   iframe {
     height: 470px;
-    width: 100%; } }
+    width: 100%; }
+  .descripcion-producto-video {
+    margin-top: 6%; } }
+
+/*--------------------- Media Queries 1280px -------------------*/
+@media (min-width: 1280px) {
+  .productos-relacionados-asus-img {
+    width: 40%; }
+  .productos-relacionados-asus-zenefone {
+    margin-top: 10px; } }
+
+/*--------------------- Media Queries 1366px -------------------*/
+@media (min-width: 1366px) {
+  .informacion-producto-block-informativo {
+    margin-top: 27px; }
+  iframe {
+    width: 80%;
+    margin-left: 10%; }
+  .container {
+    max-width: 1366px;
+    margin: 0 auto; } }
 
 footer {
   background: #2e2e2e;
   clear: both;
-  padding: 4%; }
+  padding: 4%;
+  width: 100%; }
   footer h5 {
     color: #f1f1f1;
     margin-top: 3%;
     text-align: center; }
+
 /*# sourceMappingURL=style.css.map */

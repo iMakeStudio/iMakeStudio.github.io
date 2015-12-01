@@ -36,7 +36,7 @@
     width: 150px;
   }
 }
-
+/*--------------------- Media Queries 1024px -------------------*/
 @media (min-width:1024px) {
   .descripcion-producto-informacion {
     margin: 15px 0;
@@ -46,6 +46,43 @@
 
   iframe {
     height: 470px;
-    width: 100%
+    width: 100%;
+  }
+
+  .descripcion-producto-video {
+    margin-top: 6%;
+  }
+
+}
+/*--------------------- Media Queries 1280px -------------------*/
+@media (min-width:1280px) {
+  .productos-relacionados-asus-img {
+    width: 40%;
+  }
+
+  .productos-relacionados-asus-zenefone {
+    margin-top: 10px;
   }
 }
+/*--------------------- Media Queries 1366px -------------------*/
+@media (min-width:1366px) {
+  .informacion-producto-block-informativo {
+    margin-top: 27px;
+  }
+
+  iframe {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .container {
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
