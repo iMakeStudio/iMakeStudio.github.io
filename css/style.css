@@ -265,8 +265,6 @@ input[type="submit"] {
   padding: 8px 25px;
   width: 100%;
   margin-bottom: 10px;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
   @media screen and (min-width: 767px) {
     input[type="submit"] {
@@ -418,6 +416,11 @@ button {
     height: 5rem;
     font-size: 3rem; } }
 
+/*////////////////////////////// Media Queries 1024px /////////////////////////*/
+@media (min-width: 1024px) {
+  .about-product {
+    margin-top: 1%; } }
+
 .informacion-producto-user-review span {
   font-weight: bold; }
 
@@ -460,5 +463,4 @@ footer {
     color: #f1f1f1;
     margin-top: 3%;
     text-align: center; }
-
 /*# sourceMappingURL=style.css.map */
