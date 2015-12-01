@@ -47,3 +47,59 @@ button {
     margin-left: 4%;
   }
 }
+/*/////////////////////////// media queries 768px ///////////////////////////*/
+@media (min-width:768px) {
+  .fa-shopping-cart {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+/*/////////////////////////// media queries 1024px ///////////////////////////*/
+@media (min-width:1024px) {
+  .fa-bars {
+    display: none;
+  }
+  .first-navbar {
+    padding: 2%;
+  }
+  .nav-main {
+    display: inline-block;
+    height: 67px;
+    ul {
+      padding-left: 1%;
+      width: 100%;
+      li {
+        display: inline-block;
+        margin: 1% 0;
+        padding: 0 1%;
+        &:hover {
+          border-bottom: solid 2px $call-to-action;
+          //padding: 5px 0;
+        }
+        a {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

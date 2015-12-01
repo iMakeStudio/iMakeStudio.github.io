@@ -31,4 +31,21 @@
   .productos-relacionados-asus-precio {
     font-size: 2rem;
   }
+  .review-producto-usuario h3 {
+    font-size: 1.5rem;
+    width: 150px;
+  }
+}
+
+@media (min-width:1024px) {
+  .descripcion-producto-informacion {
+    margin: 15px 0;
+    margin-bottom: 15px;
+    //width: 70%;
+  }
+
+  iframe {
+    height: 470px;
+    width: 100%
+  }
 }

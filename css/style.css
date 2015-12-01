@@ -337,6 +337,33 @@ button {
   button .fa {
     margin-left: 4%; }
 
+/*/////////////////////////// media queries 768px ///////////////////////////*/
+@media (min-width: 768px) {
+  .fa-shopping-cart {
+    margin-left: 7%;
+    margin-right: 7%; } }
+
+/*/////////////////////////// media queries 1024px ///////////////////////////*/
+@media (min-width: 1024px) {
+  .fa-bars {
+    display: none; }
+  .first-navbar {
+    padding: 2%; }
+  .nav-main {
+    display: inline-block;
+    height: 67px; }
+    .nav-main ul {
+      padding-left: 1%;
+      width: 100%; }
+      .nav-main ul li {
+        display: inline-block;
+        margin: 1% 0;
+        padding: 0 1%; }
+        .nav-main ul li:hover {
+          border-bottom: solid 2px #2DCC70; }
+        .nav-main ul li a {
+          cursor: pointer; } }
+
 /*
  * Price style .
  */
@@ -412,7 +439,18 @@ button {
   .productos-relacionados-asus-img {
     width: 65%; }
   .productos-relacionados-asus-precio {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .review-producto-usuario h3 {
+    font-size: 1.5rem;
+    width: 150px; } }
+
+@media (min-width: 1024px) {
+  .descripcion-producto-informacion {
+    margin: 15px 0;
+    margin-bottom: 15px; }
+  iframe {
+    height: 470px;
+    width: 100%; } }
 
 footer {
   background: #2e2e2e;
