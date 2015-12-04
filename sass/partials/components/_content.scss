@@ -17,7 +17,10 @@
 
   .productos-relacionados-asus-zenefone {
     margin-top: 50px;
-    border-left: 1px solid #ccc;
+  }
+
+  .productos-relacionados-asus-zenefone:nth-child(2n) {
+    border-right: 1px solid #ccc;
   }
 
   .productos-relacionados-asus-title {
